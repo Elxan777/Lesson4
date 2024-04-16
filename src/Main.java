@@ -77,7 +77,7 @@ public class Main {
 //        System.out.println(q);
 //        System.out.println(w);
 //        System.out.println(t);
-
+//digits
 //        Scanner scan = new Scanner(System.in);
 //        System.out.print("Input six non-negative digits: 123456 ");
 //        int input = scan.nextInt();
@@ -167,5 +167,51 @@ public class Main {
 //            }
 //            System.out.println("i'nin deyeri= " + i);
 //        }
+
+//        String s ="1,2,3,4,5,6,7";
+//        String[] num = s.split(",");
+//        for(String num1:num){
+//            System.out.print(num1+", ");
+//        }
+
+//        String s = "HeLLo WorlD";
+//        char[] charArray = s.toCharArray();
+//        char[] charArray1 = s.toLowerCase().toCharArray();
+//        char[] charArray2 = s.toUpperCase().toCharArray();
+//        char[] chars = new char[charArray.length];
+//        for (int i = 0; i < charArray.length; i++) {
+//            if (charArray[i] == charArray1[i]) {
+//                chars[i] = charArray2[i];
+//            } else {
+//                chars[i] = charArray1[i];
+//            }
+//        }
+//        String a = new String(chars);
+//        System.out.println(a);
+
+
+//    public static boolean hasEqualNumbers(int num1, int num2) {
+//        return (num1 == num2);
+//    }
+//
+//    public static void main(String[] args) {
+//
+//        int num1 = 10;
+//        int num2 = 20;
+//
+//        boolean hasEqual = hasEqualNumbers(num1, num2);
+//        System.out.println(hasEqual);
+
+//        String name = "Salam";
+//        char str = name.charAt(4);
+//        System.out.println(str);
+
+//        String str = "HelloWorld";
+//        for (int i = 0; i <= str.length() - 1; i++) {
+//            if (i % 2 != 0) {
+//                System.out.println(i + " yerde " + str.charAt(i));
+//            }
+//        }
+
     }
 }
